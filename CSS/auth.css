@@ -1,0 +1,66 @@
+.site__wrap {
+    display: flex;
+    background: #454545;
+}
+
+.header__bar {
+    background: linear-gradient(#EEE, #DDD);
+    box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.2);
+    height: 100px;
+}
+
+.login {
+    background: linear-gradient(#337ab7, #286090);
+    border-radius: 1em;
+    color: #FFF;
+    display: inline-block;
+    padding: 2em 4em;
+    position: absolute;
+    text-decoration: none;
+    top: 10px;
+    right: 20px;
+}
+
+.login:hover {
+    background: #286090;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.sidebar {
+    display: inline-flex;
+    flex-direction: column;
+    min-width: 300px;
+    background: linear-gradient(#DDD, #EEE);
+    margin-right: 50px;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 20px;
+}
+
+.block {
+    background: linear-gradient(#337ab7, #286090);
+    box-shadow: 0px 90px 30px -80px rgba(0, 0, 0, 0.3);
+    color: #FFF;
+    padding: 20px;
+    border-radius: 1em;
+    width: 50vw;
+    margin: 35px auto;
+}
+
+.name {
+    display: block;
+    font-weight: bold;
+    font-size: 2em;
+    
+}
+
+.date {
+    display: block;
+    font-size: 1.5em;
+}
+
+.footer {
+    height: 200px;
+    background: #337ab7;
+}
